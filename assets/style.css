@@ -1,0 +1,85 @@
+:root {
+    --headcolor: #233142;
+    --bg_color: #66bfbf;
+    --txtcolor: #ececec;
+}
+
+* {
+    font-family:'Trebuchet MS', Tahoma, Arial, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 90px;
+    background-color: var(--headcolor);
+    color: var(--txtcolor);
+}
+
+header li {
+    display: inline;
+    position: relative;
+    right: 80px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--txtcolor);
+    border-bottom: 5px solid var(--bg_color);
+    padding: 10px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+}
+
+.cool_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1%;
+    background-image: url("https://rare-gallery.com/uploads/posts/5371114-screen-work-code-computer-technology-html-coding-text-css-data-monitor-silicon-slope-silicon-valley-ninja-typing-language-php-style-sheet-code-css-new-free-stock-photos.jpg");
+    background-blend-mode: multiply;
+    background-size: 100%;
+    background-position: center;
+    color: var(--headcolor);
+}
+  
+.contact li {
+    display:inline-flex;
+}
+
+#cool_stuff {
+    width: 345px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    top: 10px; right: 50px;
+    color: var(--txtcolor);
+    background-color: var(--bg_color);
+    font-size: 30px;
+    text-align: center;
+}
+
+#name {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 5px;
+    width: 500px;
+    padding: 5px;
+    font-size: 50px;
+    color: var(--txtcolor);
+    background-color: var(--bg_color);
+}
