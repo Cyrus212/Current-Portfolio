@@ -39,6 +39,7 @@ header {
     height: 90px;
     background-color: var(--headcolor);
     color: var(--txtcolor);
+    flex-wrap: wrap;
 }
 
 header li {
@@ -54,6 +55,7 @@ header a {
     color: var(--txtcolor);
     border-bottom: 5px solid var(--bg_color);
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 section {
@@ -81,6 +83,7 @@ section h2 {
 }
 
 .avatar {
+    display: inline-block;
     height: 200px;
     width: 200px;
 }
@@ -95,6 +98,10 @@ section h2 {
     background-size: 100%;
     background-position: center;
     color: var(--headcolor);
+    width: 98%;
+    height: 90%;
+    overflow: auto;
+    flex-wrap: wrap;
 }
   
 .contact li {
@@ -122,9 +129,8 @@ section h2 {
 .proj2 {
     display: flex;
     position: relative;
-    width: 700px;
-    height: 150px;
-    left: 20px;
+    width: 25%;
+    right: 20px;
     border: 5px solid var(--bg_color);
     filter: blur(1px);
 }
@@ -162,6 +168,7 @@ section h2 {
 }
 
 #cool_stuff {
+    display: inline-block;
     width: 345px;
     padding: 10px;
     margin: 20px;
@@ -183,6 +190,7 @@ section h2 {
     font-size: 50px;
     color: var(--txtcolor);
     background-color: var(--bg_color);
+    bottom: 15px;
 }
 
 #paragraph {
