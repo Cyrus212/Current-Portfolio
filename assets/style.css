@@ -119,14 +119,14 @@ section h2 {
     filter: blur(0px);
 }
 
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    left: 303px;
-    background-color: var(--bg_color);
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+.proj2 {
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 150px;
+    left: 20px;
+    border: 5px solid var(--bg_color);
+    filter: blur(1px);
 }
 
 .work {
@@ -137,6 +137,11 @@ section h2 {
     justify-content: center;
     margin: 1rem;
     position: relative;
+}
+
+.work a {
+    display: inline-block;
+    width: 70%;
 }
 
 #aboutme {
