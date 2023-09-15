@@ -8,10 +8,10 @@ My motivation for creating this was to present projects I've created as well as 
 
 Building this project, showed me how to change my mindset and allowed me to search for solutions to problems I've run into.
 
-    ```md
-    ![alt text](assets/images/Portfolio.jpg)
-    ```
 
-    https://github.com/Cyrus212/Current-Portfolio
+![alt text](assets/images/Portfolio.jpg)
 
-    https://cyrus212.github.io/Current-Portfolio/
+
+https://github.com/Cyrus212/Current-Portfolio
+
+https://cyrus212.github.io/Current-Portfolio/
